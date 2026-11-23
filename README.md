@@ -25,19 +25,65 @@ ShadowGuide never runs a suggested command or installs software. Its risk checke
 
 ShadowGuide has **no third-party runtime Python dependencies**. Development and test tools are listed separately in `requirements-dev.lock`.
 
+
 ## Installation
 
-Download or clone this repository, open a terminal in the project directory, and install it:
+Follow these steps to download and install ShadowGuide.
+
+### Prerequisites
+
+Before installing, make sure you have:
+- Python installed.
+- Git installed.
+
+### Step 1: Clone the repository
+
+Open a terminal (Command Prompt, PowerShell, or your preferred terminal) and run:
 
 ```bash
-pip install .
+git clone https://github.com/Mohamed-MT/ShadowGuide.git
 ```
 
-You can also use `pipx` to install it in an isolated environment:
+### Step 2: Navigate to the project directory
+
+```bash
+cd ShadowGuide
+```
+
+### Step 3: Install ShadowGuide
+
+Run:
+
+```bash
+python -m pip install .
+```
+
+On Windows, if `python` is not recognized, try:
+
+```bash
+py -m pip install .
+```
+
+### Step 4: Verify the installation
+
+Run:
+
+```bash
+shadowguide --help
+```
+
+If the installation was successful, the ShadowGuide command-line help should appear.
+
+### Alternative: Install using pipx
+
+You can also install ShadowGuide using [pipx](https://pipx.pypa.io/), which installs Python applications in isolated environments.
+
+From the project directory, run:
 
 ```bash
 pipx install .
 ```
+
 
 After installation, the `shadowguide` command should be available in your terminal.
 
@@ -158,9 +204,7 @@ These protections reduce risk but cannot make the application, its dependencies,
 ## Project documentation
 
 - [PRIVACY.md](PRIVACY.md) — what ShadowGuide stores, sends, and redacts
-- [SECURITY.md](SECURITY.md) — security design and vulnerability reporting
 - [THREAT_MODEL.md](THREAT_MODEL.md) — assets, trust boundaries, threats, and residual risks
-- [docs/AUDIT.md](docs/AUDIT.md) — the project's security audit, findings, checks, and audit limitations
 - [docs/REPO_HARDENING.md](docs/REPO_HARDENING.md) — GitHub account and repository settings to configure
 - [docs/RELEASING.md](docs/RELEASING.md) — release and PyPI publishing process
 - [CHANGELOG.md](CHANGELOG.md) — version history
