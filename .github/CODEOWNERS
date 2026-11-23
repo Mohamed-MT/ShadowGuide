@@ -1,0 +1,6 @@
+# Every change needs review from a code owner (enable "Require review from Code Owners" in branch protection).
+* @Mohamed-MT
+/.github/ @Mohamed-MT
+/src/shadowguide/backends/http.py @Mohamed-MT
+/src/shadowguide/risk.py @Mohamed-MT
+/src/shadowguide/sanitize.py @Mohamed-MT

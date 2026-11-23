@@ -1,0 +1,31 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Virtual environments and package/build output
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+
+# Local configuration, credentials, and keys
+.env
+.env.*
+*.pem
+*.key
+
+# Local editor / operating-system files
+.DS_Store
+.idea/
