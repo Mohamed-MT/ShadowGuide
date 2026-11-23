@@ -206,7 +206,6 @@ These protections reduce risk but cannot make the application, its dependencies,
 - [PRIVACY.md](PRIVACY.md) — what ShadowGuide stores, sends, and redacts
 - [THREAT_MODEL.md](THREAT_MODEL.md) — assets, trust boundaries, threats, and residual risks
 - [docs/REPO_HARDENING.md](docs/REPO_HARDENING.md) — GitHub account and repository settings to configure
-- [docs/RELEASING.md](docs/RELEASING.md) — release and PyPI publishing process
 - [CHANGELOG.md](CHANGELOG.md) — version history
 
 ## Development
