@@ -1,3 +1,16 @@
+<table>
+  <tr>
+    <td width="360">
+      <img width="350" alt="ShadowGuide" src="https://github.com/user-attachments/assets/9ec74e72-1b1c-4934-8ea6-ab5182018d62" />
+    </td>
+    <td>
+      <h1>ShadowGuide</h1>
+      <p><strong>Ask in Plain English. Run with Confidence.</strong></p>
+      <p>A local AI co-pilot that runs right in your terminal to help you navigate, understand, and run commands safely—without ever executing anything on its own.</p>
+    </td>
+  </tr>
+</table>
+
 # ShadowGuide
 
 **A local-first AI companion for your terminal.** Ask questions in plain English and get commands explained for your operating system and shell, along with what each command does, prerequisites, cautions, and alternatives.
